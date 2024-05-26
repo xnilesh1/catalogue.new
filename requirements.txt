@@ -1,4 +1,4 @@
-choco install python311
+choco python311
 google.generativeai
 langchain-google-genai
 crewai[tools]
