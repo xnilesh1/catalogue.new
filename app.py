@@ -7,7 +7,6 @@ import os
 from crewai import Agent, Crew, Process, Task
 from PIL import Image
 from PIL import ImageFile
-from streamlit_image_select import image_select
 ImageFile.LOAD_TRUNCATED_IMAGES = True
 from catalogue_agent import Catalogueagent
 from catalogue_task import Cataloguetask
