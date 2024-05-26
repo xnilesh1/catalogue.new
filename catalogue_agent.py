@@ -80,7 +80,7 @@ class Catalogueagent():
             verbose=True,
             # tools=[],  # Optional, defaults to an empty list
             llm=langm,  # Optional
-            #allow_delegation=False,  # Optional
+            allow_delegation=False,  # Optional
             max_iter=4,  # Optional
             # max_rpm=None, # Optional
             step_callback=streamlit_callback,
@@ -96,6 +96,8 @@ class Catalogueagent():
             for digital product catalogue to improve it's ranking and overall sales.
             ''',
             verbose =True,
+            allow_delegation=True,  # Optional
+
             llm = langm,
             step_callback=streamlit_callback
         )
