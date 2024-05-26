@@ -1,6 +1,6 @@
-python==3.11.9
 google.generativeai
 langchain-google-genai
 crewai[tools]
 crewai
 pysqlite3-binary
+crewai-tools
