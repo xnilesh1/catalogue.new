@@ -54,9 +54,9 @@ def vision_tool(photo):
     img =Image.open(photo)
     response = model.generate_content(["What is the name of product in image? Please respond with actual name only", img], stream = True)
     response.resolve()
-    #return response.candidates[0]
-    output = response.text
-    return output
+    return response.candidates[0]
+    #output = response.text
+    #return output
 
 
 
