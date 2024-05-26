@@ -1,5 +1,3 @@
-from turtle import width
-from sqlalchemy import false
 import streamlit as st
 from langchain_google_genai import ChatGoogleGenerativeAI 
 from crewai import Crew
@@ -23,7 +21,7 @@ from streamlit_lottie import st_lottie
 loop = asyncio.new_event_loop()
 asyncio.set_event_loop(loop)
 
-st.title("Hi! I'm 🤖 your catalogue creator")
+st.title("Hi! I'm 🤖 your catalogue writer!")
 
 
 
