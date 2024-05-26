@@ -1,4 +1,4 @@
 google.generativeai
-crewai
 langchain-google-genai
-crewai-tools
+'crewai[tools]'
+crewai
