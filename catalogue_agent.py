@@ -95,9 +95,10 @@ class Catalogueagent():
             You are SEO expert at big company. your job is to research about high ranking keywords 
             for digital product catalogue to improve it's ranking and overall sales.
             ''',
+            max_iter=2,  # Optional
+
             verbose =True,
             allow_delegation=True,  # Optional
-
             llm = langm,
             step_callback=streamlit_callback
         )
