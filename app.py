@@ -50,7 +50,7 @@ with col2:
 def vision_tool(photo):
     api_key = os.environ.get('GOOGLE_API_KEY')
     genai.configure(api_key=api_key)
-    model = genai.GenerativeModel('gemini-pro-vision')
+    model = genai.GenerativeModel('gemini-1.5-flash')
     img =Image.open(photo)
     response = model.generate_content(["What is the name of product in image? Please respond with actual name only", img], stream = True)
     response.resolve()
