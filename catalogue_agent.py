@@ -54,7 +54,7 @@ def streamlit_callback(step_output):
                     st.markdown(str(observation))
             else:
                 st.markdown(step)
-        status.update(label="Action completed!", state="complete", expanded=False)
+        status(label="Action completed!", state="complete", expanded=False)
 
 
 
